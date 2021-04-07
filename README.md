@@ -28,6 +28,8 @@ Copy the output and run on the next cell --> CALCULATE FID FOR EACH EPOCH
 
 ### TODO
 
+Generate a script to delete generated files after calculation
+
 Append fid_value from pytorch-fid to a list
 
 Create csv file with FID per EPOCH
