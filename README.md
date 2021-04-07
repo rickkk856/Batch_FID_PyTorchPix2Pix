@@ -1,5 +1,5 @@
 # Batch_FID_PyTorchPix2Pix
-FID is one of the main metrics used to evaluate generative adversarial networks models, so in this repository we propose a calculation method to check the FID score over each epoch using the test data, the method is formated to the [PyTorch implementation of Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix#cyclegan-and-pix2pix-in-pytorch) and uses the packages [move-my-files](https://pypi.org/project/move-my-files/) and [pytorch-fid](https://pypi.org/project/pytorch-fid/).The method is composed of a few steps:
+FID is one of the main metrics used to evaluate generative adversarial networks models, so in this repository we propose a calculation method to check the FID score over each epoch using the test data, the method is formated to the [PyTorch implementation of Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix#cyclegan-and-pix2pix-in-pytorch) and uses the packages [move-my-files](https://pypi.org/project/move-my-files/) and [pytorch-fid](https://pypi.org/project/pytorch-fid/). The method is composed of a few steps:
 
   1) test model with 5th_EpochCheckpoint
   2) Separete REAL images and FAKE images of target domain
@@ -35,5 +35,6 @@ Create csv file with FID per EPOCH
 Plot a line graph to check increase or decrease on the quality of the generated images
 
 Think about other implementation methods like: input domain ←→ target domain or the usability of it with CycleGAN...
+
 
 
